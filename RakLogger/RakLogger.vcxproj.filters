@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="config.cpp" />
+    <ClCompile Include="functional.cpp" />
+    <ClCompile Include="callbacks.cpp" />
+    <ClCompile Include="render.cpp" />
+    <ClCompile Include="types.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="SFAPI">
+      <UniqueIdentifier>{ae859a30-c4b5-4062-a21a-8bf64697e9e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SFAPI\CCLEO.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\CGame.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\CRakNet.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\CRender.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\CSAMP.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="SFAPI\CSAMPFUNCS.h">
+      <Filter>SFAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="functional.h" />
+    <ClInclude Include="callbacks.h" />
+    <ClInclude Include="render.h" />
+    <ClInclude Include="types.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SFAPI\SAMPFUNCS.lib">
+      <Filter>SFAPI</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
